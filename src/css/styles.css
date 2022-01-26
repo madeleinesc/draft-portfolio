@@ -1,12 +1,12 @@
 body {
     font-family: 'Space Mono', monospace;
-    cursor: url(./assets/pointcursorwhite.png), auto;
+    cursor: url('./assets/pointcursorwhite.png'), auto;
     background-color: #fec5e5;
 }
 
 .box {
     border: 1px solid;
   padding: 10px;
-  box-shadow: 10px 10px;
+  
   background-color: white;
 }
