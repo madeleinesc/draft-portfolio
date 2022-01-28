@@ -2,51 +2,61 @@ body {
     cursor: url('../../assets/cursor-pixel.png'), auto;
     background-color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
-    
     color:#2d2d2b;
-    
-    
 }
 
+
+/* nav bar */
 .nav {
     font-family: 'Inter', sans-serif;
     background-color: #c4c4c4;
     border-bottom: 4px solid #2d2d2b;
     padding-top: 12px;
     padding-bottom: 10px;
-
 }
 
 .nav-link {
     color: #2d2d2b;
-
 }
 
 .nav-link:hover {
-    color: #2d2d2b;
+    color: #fff;
+    cursor: url('../../assets/cursor-pixel.png'), auto;
 }
 
-
-
-.main-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border: 4px solid #2d2d2b;
-    box-shadow: 15px 15px #2d2d2b;
-    
+/* about */
+.title {
+    font-family: 'Inter', sans-serif;
 }
 
 .title-pad {
     padding-top: 170px;
 }
 
-.title {
-   
-    font-family: 'Inter', sans-serif;
-
+/* about image */
+.img-pad {
+    padding-top:125px;
+}
+.main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 4px solid #2d2d2b;
+    box-shadow: 15px 15px #2d2d2b;
 }
 
+/* socials */
+.social-links {
+    color: #2d2d2b;
+}
+
+.social-links:hover {
+    color:#c4c4c4;
+    cursor: url('../../assets/cursor-pixel.png'), auto;
+}
+
+
+/* projects */
 .card-cont {
     padding-bottom: 50px;
 }
@@ -65,17 +75,38 @@ body {
 
 .btn {
     background-color: #2d2d2b;
-    color: #fff;
+    color:#fff;
+}
+
+.btn:hover {
+    color: #c4c4c4;
+    cursor: url('../../assets/cursor-pixel.png'), auto;
 }
 
 .sub-title-pad {
     padding-top: 50px;
 }
 
+/* email */
+.email-link {
+    color:#2d2d2b;
+}
+
+.email-link:hover {
+    color: #c4c4c4;
+    cursor: url('../../assets/cursor-pixel.png'), auto;
+}
+
+
+/* footer */
 .footer {
     font-family: 'Inter', sans-serif;
     background-color: #c4c4c4;
     border-top: 4px solid #2d2d2b;
+}
+
+.happy-comp:hover {
+    cursor: url('../../assets/cursor-pixel.png'), auto;
 }
 
 
